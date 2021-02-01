@@ -27,7 +27,7 @@ RUN chmod +x /root/*.sh /home/nobody/*.sh && \
 VOLUME /config
 
 # expose port for http
-EXPOSE 8090
+EXPOSE 80
 
 # expose port for docker api
 EXPOSE 4243
